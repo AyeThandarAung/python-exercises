@@ -1,15 +1,16 @@
 from sys import argv
+
 script = argv
-filename =argv
+filename = argv
 
-txt =open(filename)
+txt = open(filename)
 
-print("Here's your file %r:" % filename)
+print(f"Here's your file {filename}:")
 print(txt.read())
 
-print ("Type the filename again:")
-file_again = raw_input(" >")
+print("Type the filename again:")
+file_again = input(" >")
 
-txt_again =open(file_again)
+txt_again = open(file_again)
 
-print (txt_again.read())
+print(txt_again.read())
