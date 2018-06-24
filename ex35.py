@@ -9,10 +9,10 @@ def gold_room():
     else:
         dead("Man, learn to type a number.")
 
-     if how_much < 50:
+    if how_much < 50:
          print("Nice , you're not greedy, you win!")
          exit(0)
-     else:
+    else:
          dead("You greedy bastard!")
 
 def bear_room():
@@ -33,9 +33,9 @@ def bear_room():
               bear_moved = True
          elif choice == "taunt bear" and bear_moved:
              dead("The bear gets pissed off and chews your learn")
-        elif choice == "open door" and bear_moved:
+         elif choice == "open door" and bear_moved:
              gold_room()
-        else:
+         else:
              print("I got no idea what that means.")
 
 def cthulhu_room():
@@ -68,7 +68,7 @@ def start():
     elif choice == "right":
         cthulhu_room()
     else:
-        dead("You stumble around the room until you starve."
+        dead("You stumble around the room until you starve.")
 
 
 start()                
