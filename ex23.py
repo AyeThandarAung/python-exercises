@@ -1,6 +1,6 @@
 import sys 
-script=sys.argv
-encoding=sys.argv
+script = sys.argv
+encoding = sys.argv
 error = sys.argv 
 def main(language_file, encoding, errors): 
     line = language_file.readline() 

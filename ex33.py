@@ -6,10 +6,10 @@ while i < 6:
     numbers.append(i)
 
     i = i + 1
-    print ("Number now: ", numbers)
-    print (f"At the botoom i is {i}")
+    print("Number now: ", numbers)
+    print(f"At the botoom i is {i}")
 
-print ("The numbers:")
+print("The numbers:")
 
 for num in numbers:
-    print (num)
+    print(num)
